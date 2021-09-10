@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { makeStyles } from '@material-ui/core';
+import Card from './components/Card';
+import Image from './img/pattern-background-desktop.svg'
 
 function App() {
+
+  const classes = useStyle();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.container}>
+      <Card />
     </div>
   );
 }
+const useStyle = makeStyles(theme => ({
+  container: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    height: "100vh",
+    backgroundImage: `url(${Image})`,
+    backgroundRepeat: "no-repeat",
+    backgroundColor: "#e0e8ff",
+    backgroundSize: "100vw",
+  }
+}))
 
 export default App;
