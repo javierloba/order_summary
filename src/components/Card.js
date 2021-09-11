@@ -1,5 +1,6 @@
 import { makeStyles, Paper } from '@material-ui/core';
 import Hero from './Hero';
+import Text from './Text';
 
 
 const Card = () => {
@@ -7,7 +8,10 @@ const Card = () => {
     return (
         <div>
             <Paper className={classes.card} elevation={0}>
-                <Hero />
+                <div>
+                    <Hero />
+                    <Text />
+                </div>
             </Paper>
         </div>
     )
