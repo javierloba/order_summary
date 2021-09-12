@@ -24,7 +24,7 @@ const AnnualPlan = () => {
 const useStyle = makeStyles(theme => ({
     container: {
         backgroundColor: "#f5f7ff",
-        width: "80%",
+        width: "82%",
         height: "80px",
         display: "flex",
         alignItems: "center",
@@ -33,17 +33,28 @@ const useStyle = makeStyles(theme => ({
     link: {
         fontFamily: "Red Hat Display",
         fontWeight: "700",
-        margin: theme.spacing(2)
+        fontSize: ".9em",
+        color: "#3829e0",
+        margin: theme.spacing(2),
+        textDecoration: "underline #3829e0",
+        "&:hover": {
+            textDecoration: "none",
+            color: "#7280a7"
+         },
     },
+
     text: {
         margin: theme.spacing(0, 4, 0, 0)
     },
     title: {
+        fontFamily: "Red Hat Display",
         fontSize: ".8em",
-        fontWeight: "900"
+        fontWeight: "900",
     },
     price: {
-        fontSize: ".8em"
+        fontFamily: "Red Hat Display",
+        fontSize: ".8em",
+        color: "#7280a7",
     },
     icon: {
       display: "flex",

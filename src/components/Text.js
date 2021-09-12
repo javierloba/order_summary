@@ -26,7 +26,8 @@ const useStyle = makeStyles(theme => ({
         textAlign: "center",
         margin: theme.spacing(2, 4, 3, 4),
         fontFamily: "Red Hat Display",
-        fontSize: ".8em"
+        fontSize: ".8em",
+        color: "#7280a7"
     }
   }))
 

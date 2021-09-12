@@ -20,7 +20,7 @@ const useStyle = makeStyles(theme => ({
     height: "100vh",
     backgroundImage: `url(${Image})`,
     backgroundRepeat: "no-repeat",
-    backgroundColor: "#e0e8ff",
+    backgroundColor: "#f5f7ff",
     backgroundSize: "100vw",
   }
 }))
