@@ -1,4 +1,4 @@
-import { makeStyles, Paper, Typography } from '@material-ui/core';
+import { makeStyles, Paper } from '@material-ui/core';
 import AnnualPlan from './AnnualPlan';
 import CancelOrder from './CancelOrder';
 import Hero from './Hero';

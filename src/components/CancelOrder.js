@@ -20,7 +20,8 @@ const useStyle = makeStyles(theme => ({
       fontWeight: "900",
       color: "#7280a7",
       "&:hover": {
-        textDecoration: "none"
+        textDecoration: "none",
+        color: "#000"
      },
     }
   }))
