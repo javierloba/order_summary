@@ -1,4 +1,5 @@
 import { makeStyles, Paper } from '@material-ui/core';
+import AnnualPlan from './AnnualPlan';
 import Hero from './Hero';
 import Text from './Text';
 
@@ -11,6 +12,7 @@ const Card = () => {
                 <div>
                     <Hero />
                     <Text />
+                    <AnnualPlan />
                 </div>
             </Paper>
         </div>

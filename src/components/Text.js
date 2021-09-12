@@ -18,14 +18,15 @@ const Text = () => {
 const useStyle = makeStyles(theme => ({
     title: {
         textAlign: "center",
-        fontWeight: "bold",
+        fontWeight: "900",
         margin: theme.spacing(2),
         fontFamily: "Red Hat Display"
     },
     text: {
         textAlign: "center",
-        margin: theme.spacing(2, 4),
-        fontFamily: "Red Hat Display"
+        margin: theme.spacing(2, 4, 3, 4),
+        fontFamily: "Red Hat Display",
+        fontSize: ".8em"
     }
   }))
 
